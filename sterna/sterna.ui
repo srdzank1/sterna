@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sternaClass</class>
+ <widget class="QMainWindow" name="sternaClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1284</width>
+    <height>728</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Sterna</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="sterna.qrc">
+    <normaloff>:/sterna/Resources/imagesCA93H0U6.bmp</normaloff>:/sterna/Resources/imagesCA93H0U6.bmp</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1284</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>Извештаи</string>
+    </property>
+    <addaction name="actionLager"/>
+    <addaction name="actionIzvestai"/>
+    <addaction name="actionDnevenPromet"/>
+    <addaction name="separator"/>
+    <addaction name="actionAnalitikaKomintent"/>
+    <addaction name="actionAnalitikaArtikli"/>
+    <addaction name="separator"/>
+    <addaction name="actionFinansova_Kartica"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>Материјално-Финансово</string>
+    </property>
+    <addaction name="actionMyFakturiVlezni"/>
+    <addaction name="actionKalkulacii"/>
+    <addaction name="actionMyFakturi"/>
+    <addaction name="actionProFaktura"/>
+    <addaction name="separator"/>
+    <addaction name="actionIzvodi"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Документи</string>
+    </property>
+    <addaction name="action_MyArtikli"/>
+    <addaction name="actionDDV"/>
+    <addaction name="actionBanki"/>
+    <addaction name="actionKasi"/>
+    <addaction name="action_KomintentiLista"/>
+    <addaction name="separator"/>
+    <addaction name="actionPreview"/>
+    <addaction name="actionPrinter"/>
+    <addaction name="actionClose"/>
+    <addaction name="actionVraboteni"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Фискални Сметки</string>
+    </property>
+    <addaction name="actionDnevnoFiskalnoZatvaranje"/>
+    <addaction name="actionKontrolenIzvestaj"/>
+    <addaction name="actionDetalenIzvestajPoPeriod"/>
+    <addaction name="actionPodesuvanjeDatumCas"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>Материјално</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_MyArtikli"/>
+   <addaction name="action_KomintentiLista"/>
+   <addaction name="actionIzjava"/>
+   <addaction name="actionMyPriemnici"/>
+   <addaction name="action_n"/>
+   <addaction name="actionKasi"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar_2">
+   <property name="windowTitle">
+    <string>Финансово</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionKalkulacii"/>
+   <addaction name="actionMyFakturiVlezni"/>
+   <addaction name="actionMyIspratnici"/>
+   <addaction name="actionMyFakturi"/>
+   <addaction name="actionMyPovratnica"/>
+   <addaction name="actionProFaktura"/>
+   <addaction name="actionFakturiMaster"/>
+   <addaction name="actionSmetki"/>
+   <addaction name="actionPorackiSmetki"/>
+   <addaction name="actionIzvodi"/>
+   <addaction name="actionMyOdobrenie"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_3">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="windowTitle">
+    <string>Извештаи</string>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionLager"/>
+   <addaction name="actionAnalitikaKomintent"/>
+   <addaction name="actionAnalitikaArtikli"/>
+   <addaction name="actionFinansova_Kartica"/>
+   <addaction name="actionPopis"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_4">
+   <property name="windowTitle">
+    <string>Алатки</string>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionSearch"/>
+   <addaction name="actionPreview"/>
+   <addaction name="actionIzvestaPromenaCeni"/>
+   <addaction name="actionDnevenPromet"/>
+   <addaction name="actionPeriodicenIzvestaj"/>
+   <addaction name="actionIzvestai"/>
+   <addaction name="actionClose"/>
+  </widget>
+  <action name="action_KomintentiLista">
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/imagesCADR5ZAI.png</normaloff>:/sterna/Resources/imagesCADR5ZAI.png</iconset>
+   </property>
+   <property name="text">
+    <string>Коминтенти</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+K</string>
+   </property>
+  </action>
+  <action name="action_MyArtikli">
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/isimple_system_lnx-Icons-32X32-paste_png-32x32.png</normaloff>:/sterna/Resources/isimple_system_lnx-Icons-32X32-paste_png-32x32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Артикли</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+A</string>
+   </property>
+  </action>
+  <action name="actionMyIspratnici">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/add-file-32x32.png</normaloff>:/sterna/Resources/add-file-32x32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Испратници</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+I</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionMyPriemnici">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/delete-file-32x32.png</normaloff>:/sterna/Resources/delete-file-32x32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Приемници</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+P</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionMyPovratnica">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/Pastel_Icons-folder_open_ico-32x32.png</normaloff>:/sterna/Resources/Pastel_Icons-folder_open_ico-32x32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Повратници</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+O</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionMyFakturi">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/invoice.png</normaloff>:/sterna/Resources/invoice.png</iconset>
+   </property>
+   <property name="text">
+    <string>Фактури</string>
+   </property>
+   <property name="iconText">
+    <string>Испратници
+Фактури</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+F</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionBanki">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/bank.png</normaloff>:/sterna/Resources/bank.png</iconset>
+   </property>
+   <property name="text">
+    <string>Банки</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionProFaktura">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/pro_invoice.png</normaloff>:/sterna/Resources/pro_invoice.png</iconset>
+   </property>
+   <property name="text">
+    <string>ПроФактури</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionKasi">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/kasa1.png</normaloff>:/sterna/Resources/kasa1.png</iconset>
+   </property>
+   <property name="text">
+    <string>Каса</string>
+   </property>
+   <property name="toolTip">
+    <string>Каса</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionDDV">
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/ddv.png</normaloff>:/sterna/Resources/ddv.png</iconset>
+   </property>
+   <property name="text">
+    <string>ДДВ</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionLager">
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/lager.png</normaloff>:/sterna/Resources/lager.png</iconset>
+   </property>
+   <property name="text">
+    <string>Лагер Листа</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
+   </property>
+  </action>
+  <action name="actionIzvestai">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/reports.png</normaloff>:/sterna/Resources/reports.png</iconset>
+   </property>
+   <property name="text">
+    <string>Фактури Gantt Chart</string>
+   </property>
+   <property name="iconText">
+    <string>Фактури
+ Gantt Chart</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionIzvodi">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/isimple_system_lnx-Icons-32X32-file_new_png-32x32.png</normaloff>:/sterna/Resources/isimple_system_lnx-Icons-32X32-file_new_png-32x32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Изводи</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+I</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionPrinter">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/Printer-icon.png</normaloff>:/sterna/Resources/Printer-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Print</string>
+   </property>
+   <property name="toolTip">
+    <string>Принтер (Ctrl+P)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionMyFakturiVlezni">
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/reports.png</normaloff>:/sterna/Resources/reports.png</iconset>
+   </property>
+   <property name="text">
+    <string>Влезни Фактури</string>
+   </property>
+   <property name="iconText">
+    <string>Влезни
+ Фактури</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionAnalitikaKomintent">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/k-color-edit-icon.png</normaloff>:/sterna/Resources/k-color-edit-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Аналитика Коминтенти</string>
+   </property>
+   <property name="iconText">
+    <string>Аналитика
+ Коминтенти</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+K</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionIzjava">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/pro_invoice.png</normaloff>:/sterna/Resources/pro_invoice.png</iconset>
+   </property>
+   <property name="text">
+    <string>Изјава</string>
+   </property>
+   <property name="toolTip">
+    <string>Приемница од физичко лице</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+J</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionDnevenPromet">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/bank.png</normaloff>:/sterna/Resources/bank.png</iconset>
+   </property>
+   <property name="text">
+    <string>Дневен Извештај</string>
+   </property>
+   <property name="iconText">
+    <string>Дневен
+Извештај</string>
+   </property>
+   <property name="toolTip">
+    <string>Дневен Извештај</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/close-32x32.png</normaloff>:/sterna/Resources/close-32x32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actionPreview">
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/Preview-icon.png</normaloff>:/sterna/Resources/Preview-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Preview</string>
+   </property>
+   <property name="toolTip">
+    <string>Preview (Ctrl+W)</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+W</string>
+   </property>
+  </action>
+  <action name="actionAnalitikaArtikli">
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/isimple_system_lnx-Icons-32X32-paste_png-32x32.png</normaloff>:/sterna/Resources/isimple_system_lnx-Icons-32X32-paste_png-32x32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Аналитика Артикли</string>
+   </property>
+   <property name="iconText">
+    <string>Аналитика
+ Артикли</string>
+   </property>
+   <property name="toolTip">
+    <string>Аналитика Артикли</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+A</string>
+   </property>
+  </action>
+  <action name="action_n">
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/Pastel_Icons-folder_open_ico-32x32.png</normaloff>:/sterna/Resources/Pastel_Icons-folder_open_ico-32x32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Прием Артикли</string>
+   </property>
+   <property name="iconText">
+    <string>Прием
+Артикли</string>
+   </property>
+   <property name="toolTip">
+    <string>Прием Артикли</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionSearch">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/zoom-in-icon.png</normaloff>:/sterna/Resources/zoom-in-icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Search</string>
+   </property>
+   <property name="toolTip">
+    <string>Search</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionPeriodicenIzvestaj">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/bank.png</normaloff>:/sterna/Resources/bank.png</iconset>
+   </property>
+   <property name="text">
+    <string>Периодичен Извештај</string>
+   </property>
+   <property name="iconText">
+    <string>Периодичен
+ Извештај</string>
+   </property>
+   <property name="toolTip">
+    <string>Периодичен Извештај</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionFinansova_Kartica">
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/kasa1.png</normaloff>:/sterna/Resources/kasa1.png</iconset>
+   </property>
+   <property name="text">
+    <string>Обврски</string>
+   </property>
+   <property name="iconText">
+    <string>Обврски</string>
+   </property>
+   <property name="toolTip">
+    <string>Финасова Картица</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionMyOdobrenie">
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/grid1.png</normaloff>:/sterna/Resources/grid1.png</iconset>
+   </property>
+   <property name="text">
+    <string>Книжно Одобрение</string>
+   </property>
+   <property name="iconText">
+    <string>Книжно
+Одобрение</string>
+   </property>
+   <property name="toolTip">
+    <string>Одобрение</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionVraboteni">
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/imagesCADR5ZAI.png</normaloff>:/sterna/Resources/imagesCADR5ZAI.png</iconset>
+   </property>
+   <property name="text">
+    <string>Вработени</string>
+   </property>
+   <property name="toolTip">
+    <string>Вработени</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actionSmetki">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/kasa1.png</normaloff>:/sterna/Resources/kasa1.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сметки</string>
+   </property>
+   <property name="toolTip">
+    <string>Сметки</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionKalkulacii">
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/kasa1.png</normaloff>:/sterna/Resources/kasa1.png</iconset>
+   </property>
+   <property name="text">
+    <string> Приемница -Калкулација</string>
+   </property>
+   <property name="iconText">
+    <string>Приемница
+Калкулација</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+K</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionIzvestaPromenaCeni">
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/grid1.png</normaloff>:/sterna/Resources/grid1.png</iconset>
+   </property>
+   <property name="text">
+    <string>IzvestaPromenaCeni</string>
+   </property>
+   <property name="iconText">
+    <string>Промена на
+цени</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P, Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionFakturiMaster">
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/pro_invoice.png</normaloff>:/sterna/Resources/pro_invoice.png</iconset>
+   </property>
+   <property name="text">
+    <string>Фактури</string>
+   </property>
+   <property name="toolTip">
+    <string>Фактури</string>
+   </property>
+  </action>
+  <action name="actionPopis">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/Pastel_Icons-folder_open_ico-32x32.png</normaloff>:/sterna/Resources/Pastel_Icons-folder_open_ico-32x32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Popis</string>
+   </property>
+   <property name="toolTip">
+    <string>Попис</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionDnevnoFiskalnoZatvaranje">
+   <property name="text">
+    <string>Дневно Фискално Затварање</string>
+   </property>
+  </action>
+  <action name="actionPorackiSmetki">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="sterna.qrc">
+     <normaloff>:/sterna/Resources/isimple_system_lnx-Icons-32X32-paste_png-32x32.png</normaloff>:/sterna/Resources/isimple_system_lnx-Icons-32X32-paste_png-32x32.png</iconset>
+   </property>
+   <property name="text">
+    <string>Порачка Сметка</string>
+   </property>
+   <property name="iconText">
+    <string>Порачка
+Сметка</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionKontrolenIzvestaj">
+   <property name="text">
+    <string>Контролен Извештај</string>
+   </property>
+  </action>
+  <action name="actionDetalenIzvestajPoPeriod">
+   <property name="text">
+    <string>Детален Извештај по период</string>
+   </property>
+  </action>
+  <action name="actionPodesuvanjeDatumCas">
+   <property name="text">
+    <string>Подесување Датум Час</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="sterna.qrc"/>
+ </resources>
+ <connections/>
+</ui>

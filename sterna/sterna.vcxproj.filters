@@ -1,0 +1,2955 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Priemnica">
+      <UniqueIdentifier>{d5629146-369a-4c7e-917f-fa13c557fefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Artikli">
+      <UniqueIdentifier>{3324e3ef-61cc-487f-94a6-67b7e72b7f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Komintenti">
+      <UniqueIdentifier>{3d40b073-9ace-4ff4-9781-5d9deae8b785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Povratnica">
+      <UniqueIdentifier>{c43cbd6d-0c66-49ef-86e7-48a2fd4fdaa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProFakturi">
+      <UniqueIdentifier>{8e8d6097-298f-4ce8-ac28-f714ae76288d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Banki">
+      <UniqueIdentifier>{b176cd6d-8a9a-40f2-ba94-fb8b8580eaa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Izvod">
+      <UniqueIdentifier>{6c301327-4f2c-44d7-9361-27e09df3a034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DDV">
+      <UniqueIdentifier>{52d04f14-c487-4fad-a8fb-55cd39374d84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kasa">
+      <UniqueIdentifier>{84c1762c-f6f5-478b-95c8-933ccf7686c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kartici">
+      <UniqueIdentifier>{16c5030d-efa9-4e62-b06f-57eb244891e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LagerLista">
+      <UniqueIdentifier>{9ed65dd1-450f-4967-b5eb-782a6ed233e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Izvestai">
+      <UniqueIdentifier>{885ea26a-ec7c-4d28-b2af-abbeee35de64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Artikli">
+      <UniqueIdentifier>{449c6cbe-58a0-47cc-a71e-adcce7ebd86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Komintenti">
+      <UniqueIdentifier>{a041afbc-51a5-42d4-8ddc-c3e622e808ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Povratnica">
+      <UniqueIdentifier>{7e8fc90c-f484-4a7f-a18f-62e2cee81ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Priemnica">
+      <UniqueIdentifier>{8f0a02c6-24d4-4509-a37a-b0d9fb61ad48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ProFakturi">
+      <UniqueIdentifier>{faebfbc5-52a8-42a6-8793-faaf89b0f842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Banki">
+      <UniqueIdentifier>{f7745a84-4642-4e8f-a581-c92720b2be82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Izvod">
+      <UniqueIdentifier>{49e9623f-6f90-443b-bf2d-45e4d7a509ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DDV">
+      <UniqueIdentifier>{caaa9e64-4817-477f-a738-dfe39714993b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kasa">
+      <UniqueIdentifier>{8316dbce-7257-4a70-992f-35f01cbd474b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kartici">
+      <UniqueIdentifier>{5d7f5114-a68b-4c96-a97b-0b2feb8ceddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LagerLista">
+      <UniqueIdentifier>{e73fbb27-7b9b-45ae-b50e-d04ebe380576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Izvestai">
+      <UniqueIdentifier>{df357e46-3699-40c5-8775-3007816da576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Form Files\Artikli">
+      <UniqueIdentifier>{3a3eddc3-3279-4b2c-89c2-0e9dfa752f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Priemnici">
+      <UniqueIdentifier>{9a9bb18e-17ad-4e33-bedb-d8d68cc7520b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Komintenti">
+      <UniqueIdentifier>{2501c54a-e6e8-4638-9904-965e752626ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Povratnica">
+      <UniqueIdentifier>{b42d7214-5e9d-40e3-a378-d2127b7a9bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\ProFakturi">
+      <UniqueIdentifier>{cb175b02-58c0-41bf-bd25-026e2d90232c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Banki">
+      <UniqueIdentifier>{e2c694eb-8e34-4b71-9bef-94a52777bc68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Izvod">
+      <UniqueIdentifier>{742c11ee-c9d3-46d8-9ea1-0f675b0c0b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\DDV">
+      <UniqueIdentifier>{44fdfd98-0749-4090-b008-bcf4a124c5e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Kasa">
+      <UniqueIdentifier>{b2b48ebf-d43a-4b52-b00c-96cd9b61f689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Kartici">
+      <UniqueIdentifier>{117b3ea9-bda8-4ea7-a52d-f7f97ce18848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\LagerLista">
+      <UniqueIdentifier>{12504ea7-6958-46a2-a91a-fd4703534ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Izvestai">
+      <UniqueIdentifier>{6c9c544b-b50c-4310-8f0e-3310187afb14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{65034191-d2b0-4c6a-a7f2-24c45b4ac026}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{2b46cc81-62b9-4b37-8109-e8bd9ddb3f63}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Template">
+      <UniqueIdentifier>{01803945-fc17-4747-b36c-58828751c3c3}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\FakturiIzlezni">
+      <UniqueIdentifier>{0653a961-c94e-4183-b1a0-1532b776ee0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FakturiVlezni">
+      <UniqueIdentifier>{36c144eb-4328-490f-9422-1f637dea1f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FakturiVlezni">
+      <UniqueIdentifier>{17f2a0c2-1793-4384-bd0e-3e42e160d95f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FakturiIzlezni">
+      <UniqueIdentifier>{f8f08e9e-1fbc-436c-be34-1c9c3b939171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\FakturiIzlezni">
+      <UniqueIdentifier>{0be04fc3-f5e4-48d8-a237-154f0d28fcd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\FakturiVlezni">
+      <UniqueIdentifier>{30b9139b-b654-405c-b217-ee2b0a4131eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\KomintentiAnalitika">
+      <UniqueIdentifier>{fa8fc40a-66b5-434a-bfa7-3f85b9b2b442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\KomintentiAnalitika">
+      <UniqueIdentifier>{ad0513f0-8b16-436e-94f0-832d2e8dbe08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\KomintentiAnalitika">
+      <UniqueIdentifier>{1065a81f-fbe4-4390-89e4-5be89d6a985b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Izjava">
+      <UniqueIdentifier>{4ce97e36-ad9a-41a8-be4d-21e4257891c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Izjava">
+      <UniqueIdentifier>{42aba6d5-3648-49c0-bced-51b36212f97d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Izjava">
+      <UniqueIdentifier>{a9e3d60e-75ce-44a3-b011-b13ba5d4de5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\DnevenPromet">
+      <UniqueIdentifier>{bbe203b9-2a12-4f19-b73e-2548f17cd6ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DnevenPromet">
+      <UniqueIdentifier>{6f019799-86d1-4fdc-9f17-fa6b0fc6b63e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DnevenPromet">
+      <UniqueIdentifier>{1ca9d82a-d487-4b45-9cbc-a2aa327c11e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\ArtikliAnalitika">
+      <UniqueIdentifier>{7993da68-b232-4c63-a3c8-3c453248fb5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ArtikliAnalitika">
+      <UniqueIdentifier>{ed2e73c3-71a3-45e5-b91a-023e45b5c549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ArtikliAnalitika">
+      <UniqueIdentifier>{deab66a1-c663-42b5-b157-79702fa17a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\AnalitikaKomintenti">
+      <UniqueIdentifier>{9a966235-9a4a-4dce-ac54-c09f719a1eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AnalitikaKomintenti">
+      <UniqueIdentifier>{731d218f-86c0-46cf-92e6-862a25e25d85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AnalitikaKomintenti">
+      <UniqueIdentifier>{38a05e2c-fabb-4072-8815-bdc4574f4807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Priem">
+      <UniqueIdentifier>{3cf1d930-5d50-4cb0-adfa-afdbd7f69940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Priem">
+      <UniqueIdentifier>{c5597c6e-1c96-4a6b-8230-7488d78e6bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Priem">
+      <UniqueIdentifier>{bc68a7c7-0aaf-4fcb-a238-c0f86b55bb4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\PeriodicenIzvestaj">
+      <UniqueIdentifier>{96a051c2-a384-4f36-8f29-dd2391edbc29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PeriodicenIzvestaj">
+      <UniqueIdentifier>{1bc3f8a2-5464-4cac-b9a3-6a1a96c52287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PeriodicenIzvestaj">
+      <UniqueIdentifier>{6809e607-33a2-45ef-a79d-b2233ad9c6dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\FinAnalitikaKomintenti">
+      <UniqueIdentifier>{65a96bc7-181c-4495-9c52-ee1b0969ef2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FinAnalitikaKomintenti">
+      <UniqueIdentifier>{b6454d48-7802-4da4-8785-3f3a07de77e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FinAnalitikaKomintenti">
+      <UniqueIdentifier>{af79d78d-4eac-48d8-8df4-a07ece4723e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Odobrenie">
+      <UniqueIdentifier>{3d8c692d-de84-45ee-945f-15f26177fabd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Odobrenie">
+      <UniqueIdentifier>{d4d72d17-b6b6-4dc5-9329-1215c33ebadc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Odobrenie">
+      <UniqueIdentifier>{4e4becc8-3d87-4c13-860d-1932dae4881e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Search">
+      <UniqueIdentifier>{67e29057-6cce-4f89-953c-34b6c14b4108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Search">
+      <UniqueIdentifier>{080591b5-bd49-4f3e-b568-c8641e390edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Search">
+      <UniqueIdentifier>{7afa3dfe-36cf-405e-a09d-20a3ecf01df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Employe">
+      <UniqueIdentifier>{d39cf3be-a5fa-4080-a3e2-6e6d6e4b34dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Employe">
+      <UniqueIdentifier>{13dbb8b1-9f5f-444a-a7db-7d0f2c9e3335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Employe">
+      <UniqueIdentifier>{d2a749d6-a14a-43cd-ad91-636857ad3d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Smetki">
+      <UniqueIdentifier>{d431b8dd-9561-4176-92f5-647c96128144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Smetki">
+      <UniqueIdentifier>{a033c554-7d6d-4892-8810-e3e9b7d3c161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Smetki">
+      <UniqueIdentifier>{bbf57e4d-a42c-4019-818e-7c15937eec3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Kalkulacija">
+      <UniqueIdentifier>{53565501-41a0-4588-a5dd-21a1c3bc3145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kalkulacija">
+      <UniqueIdentifier>{c2109c2e-693b-4abd-9056-0de6e8b515c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kalkulacija">
+      <UniqueIdentifier>{245cf465-716a-4811-9e51-2820dc70add8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\PromeniCeni">
+      <UniqueIdentifier>{8ccc142e-0d08-45ca-8f36-b1b8cc50a958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PromeniCeni">
+      <UniqueIdentifier>{8516da43-2bbe-4de8-975e-8ee6342bcf92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PromeniCeni">
+      <UniqueIdentifier>{6134ad7d-114a-4cf3-b574-daca4a5f86d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ispratnici_Alone">
+      <UniqueIdentifier>{da6e1cf1-65dd-42b5-8b46-121d408b1c97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ispratnici_Alone">
+      <UniqueIdentifier>{5200b592-9f75-49ab-ae9e-50b32dfc24d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Ispratnici_alone">
+      <UniqueIdentifier>{874364d3-91dd-4235-850e-428f9c8db394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\FaktMaster">
+      <UniqueIdentifier>{40d3b071-a472-49b4-abc1-29e78f77221f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FaktMaster">
+      <UniqueIdentifier>{d62d68bf-c3a3-4f97-8ef9-dac9c3a3d592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FaktMaster">
+      <UniqueIdentifier>{352fa8fa-2529-457e-a26a-e84dd9ecae80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\ProFakturiMaster">
+      <UniqueIdentifier>{ee25a216-4e8b-49a6-b636-613ddbecbd4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ProFakturiMaster">
+      <UniqueIdentifier>{0ad23dad-9313-46d3-ac8b-b2ccff98aa25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProFakturiMaster">
+      <UniqueIdentifier>{31d51d84-b4d1-458b-b1c4-44a4a3f3e7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\PovratnicaMaster">
+      <UniqueIdentifier>{5a05f9c4-ac2d-471b-9219-3e8e8523ef02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PovratnicaMaster">
+      <UniqueIdentifier>{28d028fe-34d8-4eea-8bf6-e14fc53e916e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PovratnicaMaster">
+      <UniqueIdentifier>{6028b406-4351-402b-ae95-00b4d2095e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\Popis">
+      <UniqueIdentifier>{22003036-5c52-4912-ae3e-6f2ea918c623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Popis">
+      <UniqueIdentifier>{26a22b0a-1499-434c-9c80-6b888a11c52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Popis">
+      <UniqueIdentifier>{1a960e11-8a1b-439d-a67d-8cb83163d468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\PorackiSmetki">
+      <UniqueIdentifier>{ce6ef611-d3cf-4fe0-9805-28632bc97e81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PorackiSmetki">
+      <UniqueIdentifier>{a92c339c-07cd-43bb-813e-5004f44d8f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PorackiSmetki">
+      <UniqueIdentifier>{ff15d40c-cdc0-4298-afa5-013bffac0917}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qleft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qmybaseformwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qmybasewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sterna.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qmypriemnica.cpp">
+      <Filter>Source Files\Priemnica</Filter>
+    </ClCompile>
+    <ClCompile Include="qpriemnicakorekcija.cpp">
+      <Filter>Source Files\Priemnica</Filter>
+    </ClCompile>
+    <ClCompile Include="qpriemnicalista.cpp">
+      <Filter>Source Files\Priemnica</Filter>
+    </ClCompile>
+    <ClCompile Include="qpriemnicavnes.cpp">
+      <Filter>Source Files\Priemnica</Filter>
+    </ClCompile>
+    <ClCompile Include="qartiklikorekcija.cpp">
+      <Filter>Source Files\Artikli</Filter>
+    </ClCompile>
+    <ClCompile Include="qartiklivnes.cpp">
+      <Filter>Source Files\Artikli</Filter>
+    </ClCompile>
+    <ClCompile Include="qizleznifakturikorekcija.cpp">
+      <Filter>Source Files\FakturiIzlezni</Filter>
+    </ClCompile>
+    <ClCompile Include="qizleznifakturilista.cpp">
+      <Filter>Source Files\FakturiIzlezni</Filter>
+    </ClCompile>
+    <ClCompile Include="qizleznifakturivnes.cpp">
+      <Filter>Source Files\FakturiIzlezni</Filter>
+    </ClCompile>
+    <ClCompile Include="qmyfakturi.cpp">
+      <Filter>Source Files\FakturiIzlezni</Filter>
+    </ClCompile>
+    <ClCompile Include="qkomintentikorekcija.cpp">
+      <Filter>Source Files\Komintenti</Filter>
+    </ClCompile>
+    <ClCompile Include="qkomintentilista.cpp">
+      <Filter>Source Files\Komintenti</Filter>
+    </ClCompile>
+    <ClCompile Include="qkomintentivnes.cpp">
+      <Filter>Source Files\Komintenti</Filter>
+    </ClCompile>
+    <ClCompile Include="qmykomintenti.cpp">
+      <Filter>Source Files\Komintenti</Filter>
+    </ClCompile>
+    <ClCompile Include="qmypovratnica.cpp">
+      <Filter>Source Files\Povratnica</Filter>
+    </ClCompile>
+    <ClCompile Include="qpovratnicakorekcija.cpp">
+      <Filter>Source Files\Povratnica</Filter>
+    </ClCompile>
+    <ClCompile Include="qpovratnicalista.cpp">
+      <Filter>Source Files\Povratnica</Filter>
+    </ClCompile>
+    <ClCompile Include="qpovratnicavnes.cpp">
+      <Filter>Source Files\Povratnica</Filter>
+    </ClCompile>
+    <ClCompile Include="qprofakturakorekcija.cpp">
+      <Filter>Source Files\ProFakturi</Filter>
+    </ClCompile>
+    <ClCompile Include="qprofakturalista.cpp">
+      <Filter>Source Files\ProFakturi</Filter>
+    </ClCompile>
+    <ClCompile Include="qprofakturavnes.cpp">
+      <Filter>Source Files\ProFakturi</Filter>
+    </ClCompile>
+    <ClCompile Include="qprofakturi.cpp">
+      <Filter>Source Files\ProFakturi</Filter>
+    </ClCompile>
+    <ClCompile Include="qbanki.cpp">
+      <Filter>Source Files\Banki</Filter>
+    </ClCompile>
+    <ClCompile Include="qbankikorekcija.cpp">
+      <Filter>Source Files\Banki</Filter>
+    </ClCompile>
+    <ClCompile Include="qbankilista.cpp">
+      <Filter>Source Files\Banki</Filter>
+    </ClCompile>
+    <ClCompile Include="qbankivnes.cpp">
+      <Filter>Source Files\Banki</Filter>
+    </ClCompile>
+    <ClCompile Include="qizvod.cpp">
+      <Filter>Source Files\Izvod</Filter>
+    </ClCompile>
+    <ClCompile Include="qizvodkorekcija.cpp">
+      <Filter>Source Files\Izvod</Filter>
+    </ClCompile>
+    <ClCompile Include="qizvodlista.cpp">
+      <Filter>Source Files\Izvod</Filter>
+    </ClCompile>
+    <ClCompile Include="qizvodvnes.cpp">
+      <Filter>Source Files\Izvod</Filter>
+    </ClCompile>
+    <ClCompile Include="qddv.cpp">
+      <Filter>Source Files\DDV</Filter>
+    </ClCompile>
+    <ClCompile Include="qddvkorekcija.cpp">
+      <Filter>Source Files\DDV</Filter>
+    </ClCompile>
+    <ClCompile Include="qddvlista.cpp">
+      <Filter>Source Files\DDV</Filter>
+    </ClCompile>
+    <ClCompile Include="qddvvnes.cpp">
+      <Filter>Source Files\DDV</Filter>
+    </ClCompile>
+    <ClCompile Include="qkarticawidget.cpp">
+      <Filter>Source Files\Kartici</Filter>
+    </ClCompile>
+    <ClCompile Include="qkartici.cpp">
+      <Filter>Source Files\Kartici</Filter>
+    </ClCompile>
+    <ClCompile Include="qlager.cpp">
+      <Filter>Source Files\LagerLista</Filter>
+    </ClCompile>
+    <ClCompile Include="qlagerwidget.cpp">
+      <Filter>Source Files\LagerLista</Filter>
+    </ClCompile>
+    <ClCompile Include="qizvestai.cpp">
+      <Filter>Source Files\Izvestai</Filter>
+    </ClCompile>
+    <ClCompile Include="qizvestaiwidget.cpp">
+      <Filter>Source Files\Izvestai</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qartiklikorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qartiklikorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qartiklivnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qartiklivnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_qbanki.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_qbanki.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_qbankikorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_qbankikorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_qbankilista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_qbankilista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_qbankivnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_qbankivnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_qddv.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_qddv.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_qddvkorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_qddvkorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_qddvlista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_qddvlista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_qddvvnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_qddvvnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qfakturikorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qfakturikorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qfakturilista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qfakturilista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qfakturivnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qfakturivnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizleznifakturikorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizleznifakturikorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizleznifakturilista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizleznifakturilista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizleznifakturivnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizleznifakturivnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\debug\moc_qizvestai.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizvestai.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizvestaiwidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\debug\moc_qizvestaiwidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_qizvod.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_qizvod.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_qizvodkorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_qizvodkorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_qizvodlista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_qizvodlista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\release\moc_qizvodvnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedfiles\debug\moc_qizvodvnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qkarticawidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\debug\moc_qkarticawidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qkartici.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\debug\moc_qkartici.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qkomintentikorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qkomintentikorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qkomintentilista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qkomintentilista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qkomintentivnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qkomintentivnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qlager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\debug\moc_qlager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qlagerwidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\debug\moc_qlagerwidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qleft.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qleft.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmyartikli.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmyartikli.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmyartiklilista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmyartiklilista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmybaseformwidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmybaseformwidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmybasewidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmybasewidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmyfakturi.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmyfakturi.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmyispratnici.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmyispratnici.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmykomintenti.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmykomintenti.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmypovratnica.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmypovratnica.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmypriemnica.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmypriemnica.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qpovratnicakorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qpovratnicakorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qpovratnicalista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qpovratnicalista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qpovratnicavnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qpovratnicavnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qpriemnicakorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qpriemnicakorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qpriemnicalista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qpriemnicalista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qpriemnicavnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qpriemnicavnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qprofakturakorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qprofakturakorekcija.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qprofakturalista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qprofakturalista.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qprofakturavnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qprofakturavnes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qprofakturi.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qprofakturi.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_sterna.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_sterna.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_sterna.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qkasakorekcija.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qkasakorekcija.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qkasakorekcija.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qkasalista.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qkasalista.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qkasalista.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qkasavnes.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qkasavnes.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qkasavnes.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmykasa.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmykasa.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qmykasa.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qkasakorekcija.cpp">
+      <Filter>Source Files\Kasa</Filter>
+    </ClCompile>
+    <ClCompile Include="qkasalista.cpp">
+      <Filter>Source Files\Kasa</Filter>
+    </ClCompile>
+    <ClCompile Include="qkasavnes.cpp">
+      <Filter>Source Files\Kasa</Filter>
+    </ClCompile>
+    <ClCompile Include="qmykasa.cpp">
+      <Filter>Source Files\Kasa</Filter>
+    </ClCompile>
+    <ClCompile Include="qmyartikli.cpp">
+      <Filter>Source Files\Artikli</Filter>
+    </ClCompile>
+    <ClCompile Include="qmyartiklilista.cpp">
+      <Filter>Source Files\Artikli</Filter>
+    </ClCompile>
+    <ClCompile Include="chelperclass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_chelperclass.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_chelperclass.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_chelperclass.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qstablewidgetdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qstablewidgetdelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qstablewidgetdelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qstablewidgetdelegate.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qfakturivnes.cpp">
+      <Filter>Source Files\FakturiVlezni</Filter>
+    </ClCompile>
+    <ClCompile Include="qfakturilista.cpp">
+      <Filter>Source Files\FakturiVlezni</Filter>
+    </ClCompile>
+    <ClCompile Include="qfakturikorekcija.cpp">
+      <Filter>Source Files\FakturiVlezni</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qfakturivlezni.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qfakturivlezni.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qfakturivlezni.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qfakturivlezni.cpp">
+      <Filter>Source Files\FakturiVlezni</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qkomintentianalitika.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qkomintentianalitika.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qkomintentianalitika.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qkomintentianalitikawidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qkomintentianalitikawidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qkomintentianalitikawidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qkomintentianalitika.cpp">
+      <Filter>Source Files\KomintentiAnalitika</Filter>
+    </ClCompile>
+    <ClCompile Include="qkomintentianalitikawidget.cpp">
+      <Filter>Source Files\KomintentiAnalitika</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizjavavnes.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizjavavnes.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizjavavnes.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizjavalista.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizjavalista.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizjavalista.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizjavakorekcija.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizjavakorekcija.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizjavakorekcija.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qizjavakorekcija.cpp">
+      <Filter>Source Files\Izjava</Filter>
+    </ClCompile>
+    <ClCompile Include="qizjavalista.cpp">
+      <Filter>Source Files\Izjava</Filter>
+    </ClCompile>
+    <ClCompile Include="qizjavavnes.cpp">
+      <Filter>Source Files\Izjava</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmyizjava.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmyizjava.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qmyizjava.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qmyizjava.cpp">
+      <Filter>Source Files\Izjava</Filter>
+    </ClCompile>
+    <ClCompile Include="qdnevenpromet.cpp">
+      <Filter>Source Files\DnevenPromet</Filter>
+    </ClCompile>
+    <ClCompile Include="qdnevenprometwidget.cpp">
+      <Filter>Source Files\DnevenPromet</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qdnevenpromet.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qdnevenpromet.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qdnevenpromet.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qdnevenprometwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qdnevenprometwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qdnevenprometwidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qAnalitikaArtikli.cpp">
+      <Filter>Source Files\ArtikliAnalitika</Filter>
+    </ClCompile>
+    <ClCompile Include="qAnalitikaArtikliwidget.cpp">
+      <Filter>Source Files\ArtikliAnalitika</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qAnalitikaArtikli.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qAnalitikaArtikli.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qAnalitikaArtikli.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qAnalitikaArtikliwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qAnalitikaArtikliwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qAnalitikaArtikliwidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qAnalitikaKomintenti.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qAnalitikaKomintenti.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qAnalitikaKomintenti.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qAnalitikaKomintentiwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qAnalitikaKomintentiwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qAnalitikaKomintentiwidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qAnalitikaKomintenti.cpp">
+      <Filter>Source Files\AnalitikaKomintenti</Filter>
+    </ClCompile>
+    <ClCompile Include="qAnalitikaKomintentiwidget.cpp">
+      <Filter>Source Files\AnalitikaKomintenti</Filter>
+    </ClCompile>
+    <ClCompile Include="qPriemwidget.cpp">
+      <Filter>Source Files\Priem</Filter>
+    </ClCompile>
+    <ClCompile Include="qPriem.cpp">
+      <Filter>Source Files\Priem</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qPriem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qPriem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qPriem.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qPriemwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qPriemwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qPriemwidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qperiodicenizvestajwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qperiodicenizvestajwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qperiodicenizvestajwidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qperiodicenizvestaj.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qperiodicenizvestaj.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qperiodicenizvestaj.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qperiodicenizvestaj.cpp">
+      <Filter>Source Files\PeriodicenIzvestaj</Filter>
+    </ClCompile>
+    <ClCompile Include="qperiodicenizvestajwidget.cpp">
+      <Filter>Source Files\PeriodicenIzvestaj</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qFinAnalitikaKomintenti.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qFinAnalitikaKomintenti.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qFinAnalitikaKomintenti.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qFinAnalitikaKomintentiwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qFinAnalitikaKomintentiwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qFinAnalitikaKomintentiwidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qFinAnalitikaKomintenti.cpp">
+      <Filter>Source Files\FinAnalitikaKomintenti</Filter>
+    </ClCompile>
+    <ClCompile Include="qFinAnalitikaKomintentiwidget.cpp">
+      <Filter>Source Files\FinAnalitikaKomintenti</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmyodobrenie.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmyodobrenie.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qmyodobrenie.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qodobreniekorekcija.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qodobreniekorekcija.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qodobreniekorekcija.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qodobrenielista.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qodobrenielista.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qodobrenielista.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qodobrenievnes.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qodobrenievnes.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qodobrenievnes.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qmyodobrenie.cpp">
+      <Filter>Source Files\Odobrenie</Filter>
+    </ClCompile>
+    <ClCompile Include="qodobreniekorekcija.cpp">
+      <Filter>Source Files\Odobrenie</Filter>
+    </ClCompile>
+    <ClCompile Include="qodobrenielista.cpp">
+      <Filter>Source Files\Odobrenie</Filter>
+    </ClCompile>
+    <ClCompile Include="qodobrenievnes.cpp">
+      <Filter>Source Files\Odobrenie</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qsearchform.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qsearchform.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qsearchform.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qsearchform.cpp">
+      <Filter>Source Files\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qsearchformfaktura.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qsearchformfaktura.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qsearchformfaktura.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qsearchformfaktura.cpp">
+      <Filter>Source Files\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="quserform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_quserform.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_quserform.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_quserform.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="xx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qEmployekorekcija.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qEmployekorekcija.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qEmployekorekcija.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qEmployelista.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qEmployelista.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qEmployelista.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qEmployevnes.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qEmployevnes.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qEmployevnes.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmyEmploye.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmyEmploye.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qmyEmploye.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qEmployekorekcija.cpp">
+      <Filter>Source Files\Employe</Filter>
+    </ClCompile>
+    <ClCompile Include="qEmployelista.cpp">
+      <Filter>Source Files\Employe</Filter>
+    </ClCompile>
+    <ClCompile Include="qEmployevnes.cpp">
+      <Filter>Source Files\Employe</Filter>
+    </ClCompile>
+    <ClCompile Include="qmyEmploye.cpp">
+      <Filter>Source Files\Employe</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizleznismetkikorekcija.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizleznismetkikorekcija.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizleznismetkikorekcija.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizleznismetkilista.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizleznismetkilista.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizleznismetkilista.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizleznismetkivnes.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizleznismetkivnes.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizleznismetkivnes.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmysmetki.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmysmetki.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qmysmetki.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qizleznismetkikorekcija.cpp">
+      <Filter>Source Files\Smetki</Filter>
+    </ClCompile>
+    <ClCompile Include="qizleznismetkilista.cpp">
+      <Filter>Source Files\Smetki</Filter>
+    </ClCompile>
+    <ClCompile Include="qizleznismetkivnes.cpp">
+      <Filter>Source Files\Smetki</Filter>
+    </ClCompile>
+    <ClCompile Include="qmysmetki.cpp">
+      <Filter>Source Files\Smetki</Filter>
+    </ClCompile>
+    <ClCompile Include="qkalkulacijakorekcija.cpp">
+      <Filter>Source Files\Kalkulacija</Filter>
+    </ClCompile>
+    <ClCompile Include="qkalkulacijalista.cpp">
+      <Filter>Source Files\Kalkulacija</Filter>
+    </ClCompile>
+    <ClCompile Include="qkalkulacijavnes.cpp">
+      <Filter>Source Files\Kalkulacija</Filter>
+    </ClCompile>
+    <ClCompile Include="qmykalkulacija.cpp">
+      <Filter>Source Files\Kalkulacija</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qkalkulacijakorekcija.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qkalkulacijakorekcija.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qkalkulacijakorekcija.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qkalkulacijalista.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qkalkulacijalista.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qkalkulacijalista.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qkalkulacijavnes.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qkalkulacijavnes.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qkalkulacijavnes.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmykalkulacija.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmykalkulacija.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qmykalkulacija.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qkalkulacijalagerlista.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qkalkulacijalagerlista.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qkalkulacijalagerlista.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qkalkulacijalagerlista.cpp">
+      <Filter>Source Files\Kalkulacija</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qpromenaceni.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qpromenaceni.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qpromenaceni.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qpromenaceniwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qpromenaceniwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qpromenaceniwidget.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qpromenaceni.cpp">
+      <Filter>Source Files\PromeniCeni</Filter>
+    </ClCompile>
+    <ClCompile Include="qpromenaceniwidget.cpp">
+      <Filter>Source Files\PromeniCeni</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qfiscalform.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qfiscalform.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qfiscalform.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qfiscalform.cpp">
+      <Filter>Source Files\Smetki</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizlezniispratnicikorekcija.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizlezniispratnicikorekcija.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizlezniispratnicikorekcija.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizlezniispratnicilista.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizlezniispratnicilista.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizlezniispratnicilista.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizlezniispratnicivnes.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizlezniispratnicivnes.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizlezniispratnicivnes.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qizlezniispratnicikorekcija.cpp">
+      <Filter>Source Files\Ispratnici_Alone</Filter>
+    </ClCompile>
+    <ClCompile Include="qizlezniispratnicilista.cpp">
+      <Filter>Source Files\Ispratnici_Alone</Filter>
+    </ClCompile>
+    <ClCompile Include="qizlezniispratnicivnes.cpp">
+      <Filter>Source Files\Ispratnici_Alone</Filter>
+    </ClCompile>
+    <ClCompile Include="qmyispratnici.cpp">
+      <Filter>Source Files\Ispratnici_Alone</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizleznifaktmasterkorekcija.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizleznifaktmasterkorekcija.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizleznifaktmasterkorekcija.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmyfaktmaster.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmyfaktmaster.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qmyfaktmaster.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizleznifaktmastervnes.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizleznifaktmastervnes.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizleznifaktmastervnes.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizleznifaktmasterlista.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizleznifaktmasterlista.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizleznifaktmasterlista.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qizleznifaktmasterkorekcija.cpp">
+      <Filter>Source Files\FaktMaster</Filter>
+    </ClCompile>
+    <ClCompile Include="qmyfaktmaster.cpp">
+      <Filter>Source Files\FaktMaster</Filter>
+    </ClCompile>
+    <ClCompile Include="qizleznifaktmastervnes.cpp">
+      <Filter>Source Files\FaktMaster</Filter>
+    </ClCompile>
+    <ClCompile Include="qizleznifaktmasterlista.cpp">
+      <Filter>Source Files\FaktMaster</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmyprofakturimaster.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmyprofakturimaster.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qmyprofakturimaster.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qprofakturimastervnes.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qprofakturimastervnes.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qprofakturimastervnes.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qprofakturimasterlista.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qprofakturimasterlista.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qprofakturimasterlista.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qprofakturimasterkorekcija.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qprofakturimasterkorekcija.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qprofakturimasterkorekcija.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qmyprofakturimaster.cpp">
+      <Filter>Source Files\ProFakturiMaster</Filter>
+    </ClCompile>
+    <ClCompile Include="qprofakturimasterkorekcija.cpp">
+      <Filter>Source Files\ProFakturiMaster</Filter>
+    </ClCompile>
+    <ClCompile Include="qprofakturimasterlista.cpp">
+      <Filter>Source Files\ProFakturiMaster</Filter>
+    </ClCompile>
+    <ClCompile Include="qprofakturimastervnes.cpp">
+      <Filter>Source Files\ProFakturiMaster</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizleznipovratnicamasterkorekcija.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizleznipovratnicamasterkorekcija.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizleznipovratnicamasterkorekcija.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizleznipovratnicamasterlista.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizleznipovratnicamasterlista.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizleznipovratnicamasterlista.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizleznipovratnicamastervnes.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizleznipovratnicamastervnes.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizleznipovratnicamastervnes.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmypovratnicamaster.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmypovratnicamaster.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qmypovratnicamaster.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qizleznipovratnicamasterkorekcija.cpp">
+      <Filter>Source Files\PovratnicaMaster</Filter>
+    </ClCompile>
+    <ClCompile Include="qizleznipovratnicamasterlista.cpp">
+      <Filter>Source Files\PovratnicaMaster</Filter>
+    </ClCompile>
+    <ClCompile Include="qizleznipovratnicamastervnes.cpp">
+      <Filter>Source Files\PovratnicaMaster</Filter>
+    </ClCompile>
+    <ClCompile Include="qmypovratnicamaster.cpp">
+      <Filter>Source Files\PovratnicaMaster</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizleznipopismasterkorekcija.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizleznipopismasterkorekcija.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizleznipopismasterkorekcija.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizleznipopismasterlista.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizleznipopismasterlista.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizleznipopismasterlista.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qizleznipopismastervnes.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qizleznipopismastervnes.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qizleznipopismastervnes.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmypopismaster.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmypopismaster.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qmypopismaster.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qizleznipopismasterkorekcija.cpp">
+      <Filter>Source Files\Popis</Filter>
+    </ClCompile>
+    <ClCompile Include="qizleznipopismasterlista.cpp">
+      <Filter>Source Files\Popis</Filter>
+    </ClCompile>
+    <ClCompile Include="qizleznipopismastervnes.cpp">
+      <Filter>Source Files\Popis</Filter>
+    </ClCompile>
+    <ClCompile Include="qmypopismaster.cpp">
+      <Filter>Source Files\Popis</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qmyporackismetki.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qmyporackismetki.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qmyporackismetki.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qporackismetkikorekcija.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qporackismetkikorekcija.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qporackismetkikorekcija.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qporackismetkilista.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qporackismetkilista.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qporackismetkilista.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qporackismetkivnes.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qporackismetkivnes.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qporackismetkivnes.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="qmyporackismetki.cpp">
+      <Filter>Source Files\PorackiSmetki</Filter>
+    </ClCompile>
+    <ClCompile Include="qporackismetkikorekcija.cpp">
+      <Filter>Source Files\PorackiSmetki</Filter>
+    </ClCompile>
+    <ClCompile Include="qporackismetkilista.cpp">
+      <Filter>Source Files\PorackiSmetki</Filter>
+    </ClCompile>
+    <ClCompile Include="qporackismetkivnes.cpp">
+      <Filter>Source Files\PorackiSmetki</Filter>
+    </ClCompile>
+    <ClCompile Include="qperioddialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qperioddialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qperioddialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Template\moc_qperioddialog.cpp">
+      <Filter>Generated Files\Template</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_qartiklikorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qartiklivnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qbanki.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qbankikorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qbankilista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qbankivnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qddv.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qddvkorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qddvlista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qddvvnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qfakturikorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qfakturilista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qfakturivnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizleznifakturikorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizleznifakturilista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizleznifakturivnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizvestai.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizvestaiwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizvod.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizvodkorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizvodlista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizvodvnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qkarticawidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qkartici.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qkomintentikorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qkomintentilista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qkomintentivnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qlager.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qlagerwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qleft.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmyartikli.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmyartiklilista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmybaseformwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmybasewidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmyfakturi.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmyispratnici.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmykomintenti.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmypovratnica.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmypriemnica.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qpovratnicakorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qpovratnicalista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qpovratnicavnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qpriemnicakorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qpriemnicalista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qpriemnicavnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qprofakturakorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qprofakturalista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qprofakturavnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qprofakturi.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_sterna.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qkasakorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qkasalista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qkasavnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmykasa.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qfakturivlezni.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qkomintentianalitika.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qkomintentianalitikawidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizjavavnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizjavakorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizjavalista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmyizjava.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qdnevenpromet.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qdnevenprometwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qAnalitikaArtikli.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qAnalitikaArtikliwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qAnalitikaKomintenti.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qAnalitikaKomintentiwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qPriemwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qperiodicenizvestajwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qperiodicenizvestaj.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qFinAnalitikaKomintenti.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qFinAnalitikaKomintentiwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmyodobrenie.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qodobreniekorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qodobrenielista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qodobrenievnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qsearchform.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qsearchformfaktura.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_quserform.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmyEmploye.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qEmployeivnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qEmployekorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qEmployelista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizleznismetkiivnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizleznismetkikorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizleznismetkilista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmysmetki.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qkalkulacijakorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qkalkulacijalista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qkalkulacijavnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmykalkulacija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qkalkulacijalagerlista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qpromenaceni.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qpromenaceniwidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qfiscalform.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizlezniispratnicikorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizlezniispratnicilista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizlezniispratnicivnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmyfaktmaster.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizleznifaktmastervnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizleznifaktmasterlista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizleznifaktmasterkorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qprofakturimastervnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qprofakturimasterlista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qprofakturimasterkorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmyprofakturimaster.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizleznipovratnicamasterkorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizleznipovratnicamasterlista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizleznipovratnicamastervnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmypovratnicamaster.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizleznipopismasterkorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizleznipopismasterlista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qizleznipopismastervnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmypopismaster.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qmyporackismetki.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qporackismetkiivnes.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qporackismetkikorekcija.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qporackismetkilista.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_qperioddialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-file-32x32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\arrow-down-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\arrow-left-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\arrow-right-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\arrow-up-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\background-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\bank.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\bringtofront.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Button-Add-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Button-Delete-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\close-32x32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\color.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ddv.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\delete-file-32x32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\filenew.PNG">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\fileopen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\filesave.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\fs-view-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\grid1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\image-add-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\image-remove-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\image1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\image2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\image3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\image4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\image5.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\image6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\image7.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\imageItalic.PNG">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\imagesCA93H0U6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\imagesCADR5ZAI.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\imageunderlined.PNG">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\invoice.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\isimple_system_lnx-Icons-32X32-copy_png-32x32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\isimple_system_lnx-Icons-32X32-file_new_png-32x32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\isimple_system_lnx-Icons-32X32-paste_png-32x32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\isimple_system_lnx-Icons-32X32-save_as_png-32x32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\k-color-chooser-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\k-color-edit-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\kasa.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\kasa1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\lager.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\LeftAlign.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\Pastel_Icons-folder_open_ico-32x32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\pro_invoice.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\reports.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\sendtoback.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\shapeRectangle_icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\TopAlign.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\zoom-in-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\zoom-out-icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\stop.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ok.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\information.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\error.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\hsg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\key_f2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\key_f3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\key_f6.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\key_f9.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\jurukov1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="qleft.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmybaseformwidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmybasewidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sterna.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qartiklikorekcija.h">
+      <Filter>Header Files\Artikli</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qartiklivnes.h">
+      <Filter>Header Files\Artikli</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyartikli.h">
+      <Filter>Header Files\Artikli</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyartiklilista.h">
+      <Filter>Header Files\Artikli</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznifakturikorekcija.h">
+      <Filter>Header Files\FakturiIzlezni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznifakturilista.h">
+      <Filter>Header Files\FakturiIzlezni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznifakturivnes.h">
+      <Filter>Header Files\FakturiIzlezni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyfakturi.h">
+      <Filter>Header Files\FakturiIzlezni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkomintentikorekcija.h">
+      <Filter>Header Files\Komintenti</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkomintentilista.h">
+      <Filter>Header Files\Komintenti</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkomintentivnes.h">
+      <Filter>Header Files\Komintenti</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmykomintenti.h">
+      <Filter>Header Files\Komintenti</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmypovratnica.h">
+      <Filter>Header Files\Povratnica</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qpovratnicakorekcija.h">
+      <Filter>Header Files\Povratnica</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qpovratnicalista.h">
+      <Filter>Header Files\Povratnica</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qpovratnicavnes.h">
+      <Filter>Header Files\Povratnica</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmypriemnica.h">
+      <Filter>Header Files\Priemnica</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qpriemnicakorekcija.h">
+      <Filter>Header Files\Priemnica</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qpriemnicalista.h">
+      <Filter>Header Files\Priemnica</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qpriemnicavnes.h">
+      <Filter>Header Files\Priemnica</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qprofakturakorekcija.h">
+      <Filter>Header Files\ProFakturi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qprofakturalista.h">
+      <Filter>Header Files\ProFakturi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qprofakturavnes.h">
+      <Filter>Header Files\ProFakturi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qprofakturi.h">
+      <Filter>Header Files\ProFakturi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qbanki.h">
+      <Filter>Header Files\Banki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qbankikorekcija.h">
+      <Filter>Header Files\Banki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qbankilista.h">
+      <Filter>Header Files\Banki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qbankivnes.h">
+      <Filter>Header Files\Banki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizvod.h">
+      <Filter>Header Files\Izvod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizvodkorekcija.h">
+      <Filter>Header Files\Izvod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizvodlista.h">
+      <Filter>Header Files\Izvod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizvodvnes.h">
+      <Filter>Header Files\Izvod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qddv.h">
+      <Filter>Header Files\DDV</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qddvkorekcija.h">
+      <Filter>Header Files\DDV</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qddvlista.h">
+      <Filter>Header Files\DDV</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qddvvnes.h">
+      <Filter>Header Files\DDV</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkarticawidget.h">
+      <Filter>Header Files\Kartici</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkartici.h">
+      <Filter>Header Files\Kartici</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qlager.h">
+      <Filter>Header Files\LagerLista</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qlagerwidget.h">
+      <Filter>Header Files\LagerLista</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizvestai.h">
+      <Filter>Header Files\Izvestai</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizvestaiwidget.h">
+      <Filter>Header Files\Izvestai</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qleft.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmybaseformwidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmybasewidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sterna.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qartiklikorekcija.ui">
+      <Filter>Form Files\Artikli</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qartiklivnes.ui">
+      <Filter>Form Files\Artikli</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyartikli.ui">
+      <Filter>Form Files\Artikli</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyartiklilista.ui">
+      <Filter>Form Files\Artikli</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznifakturikorekcija.ui">
+      <Filter>Form Files\FakturiIzlezni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznifakturivnes.ui">
+      <Filter>Form Files\FakturiIzlezni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyfakturi.ui">
+      <Filter>Form Files\FakturiIzlezni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyispratnici.ui">
+      <Filter>Form Files\Ispratnici_alone</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmypriemnica.ui">
+      <Filter>Form Files\Priemnici</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qpriemnicakorekcija.ui">
+      <Filter>Form Files\Priemnici</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qpriemnicalista.ui">
+      <Filter>Form Files\Priemnici</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qpriemnicavnes.ui">
+      <Filter>Form Files\Priemnici</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkomintentikorekcija.ui">
+      <Filter>Form Files\Komintenti</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkomintentilista.ui">
+      <Filter>Form Files\Komintenti</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkomintentivnes.ui">
+      <Filter>Form Files\Komintenti</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmykomintenti.ui">
+      <Filter>Form Files\Komintenti</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmypovratnica.ui">
+      <Filter>Form Files\Povratnica</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qpovratnicakorekcija.ui">
+      <Filter>Form Files\Povratnica</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qpovratnicalista.ui">
+      <Filter>Form Files\Povratnica</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qpovratnicavnes.ui">
+      <Filter>Form Files\Povratnica</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qprofakturakorekcija.ui">
+      <Filter>Form Files\ProFakturi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qprofakturalista.ui">
+      <Filter>Form Files\ProFakturi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qprofakturavnes.ui">
+      <Filter>Form Files\ProFakturi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qprofakturi.ui">
+      <Filter>Form Files\ProFakturi</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qbanki.ui">
+      <Filter>Form Files\Banki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qbankikorekcija.ui">
+      <Filter>Form Files\Banki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qbankilista.ui">
+      <Filter>Form Files\Banki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qbankivnes.ui">
+      <Filter>Form Files\Banki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizvod.ui">
+      <Filter>Form Files\Izvod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizvodkorekcija.ui">
+      <Filter>Form Files\Izvod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizvodlista.ui">
+      <Filter>Form Files\Izvod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizvodvnes.ui">
+      <Filter>Form Files\Izvod</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qddv.ui">
+      <Filter>Form Files\DDV</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qddvkorekcija.ui">
+      <Filter>Form Files\DDV</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qddvlista.ui">
+      <Filter>Form Files\DDV</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qddvvnes.ui">
+      <Filter>Form Files\DDV</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkarticawidget.ui">
+      <Filter>Form Files\Kartici</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkartici.ui">
+      <Filter>Form Files\Kartici</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qlager.ui">
+      <Filter>Form Files\LagerLista</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qlagerwidget.ui">
+      <Filter>Form Files\LagerLista</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizvestai.ui">
+      <Filter>Form Files\Izvestai</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizvestaiwidget.ui">
+      <Filter>Form Files\Izvestai</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sterna.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sterna.ico" />
+    <CustomBuild Include="qkasakorekcija.h">
+      <Filter>Header Files\Kasa</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkasalista.h">
+      <Filter>Header Files\Kasa</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkasavnes.h">
+      <Filter>Header Files\Kasa</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmykasa.h">
+      <Filter>Header Files\Kasa</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkasakorekcija.ui">
+      <Filter>Form Files\Kasa</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkasalista.ui">
+      <Filter>Form Files\Kasa</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkasavnes.ui">
+      <Filter>Form Files\Kasa</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmykasa.ui">
+      <Filter>Form Files\Kasa</Filter>
+    </CustomBuild>
+    <CustomBuild Include="chelperclass.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qstablewidgetdelegate.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznifakturilista.ui">
+      <Filter>Form Files\FakturiIzlezni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qfakturikorekcija.h">
+      <Filter>Header Files\FakturiVlezni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qfakturilista.h">
+      <Filter>Header Files\FakturiVlezni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qfakturivnes.h">
+      <Filter>Header Files\FakturiVlezni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qfakturikorekcija.ui">
+      <Filter>Form Files\FakturiVlezni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qfakturilista.ui">
+      <Filter>Form Files\FakturiVlezni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qfakturivnes.ui">
+      <Filter>Form Files\FakturiVlezni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qfakturivlezni.ui">
+      <Filter>Form Files\FakturiVlezni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qfakturivlezni.h">
+      <Filter>Header Files\FakturiVlezni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkomintentianalitika.h">
+      <Filter>Header Files\KomintentiAnalitika</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkomintentianalitikawidget.h">
+      <Filter>Header Files\KomintentiAnalitika</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkomintentianalitika.ui">
+      <Filter>Form Files\KomintentiAnalitika</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkomintentianalitikawidget.ui">
+      <Filter>Form Files\KomintentiAnalitika</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizjavavnes.ui">
+      <Filter>Form Files\Izjava</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizjavakorekcija.ui">
+      <Filter>Form Files\Izjava</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizjavalista.ui">
+      <Filter>Form Files\Izjava</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizjavakorekcija.h">
+      <Filter>Header Files\Izjava</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizjavalista.h">
+      <Filter>Header Files\Izjava</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizjavavnes.h">
+      <Filter>Header Files\Izjava</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyizjava.h">
+      <Filter>Header Files\Izjava</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyizjava.ui">
+      <Filter>Form Files\Izjava</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qdnevenpromet.ui">
+      <Filter>Form Files\DnevenPromet</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qdnevenprometwidget.ui">
+      <Filter>Form Files\DnevenPromet</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qdnevenpromet.h">
+      <Filter>Header Files\DnevenPromet</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qdnevenprometwidget.h">
+      <Filter>Header Files\DnevenPromet</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qAnalitikaArtikli.h">
+      <Filter>Header Files\ArtikliAnalitika</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qAnalitikaArtikliwidget.h">
+      <Filter>Header Files\ArtikliAnalitika</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qAnalitikaArtikli.ui">
+      <Filter>Form Files\ArtikliAnalitika</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qAnalitikaArtikliwidget.ui">
+      <Filter>Form Files\ArtikliAnalitika</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qAnalitikaKomintenti.ui">
+      <Filter>Form Files\AnalitikaKomintenti</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qAnalitikaKomintentiwidget.ui">
+      <Filter>Form Files\AnalitikaKomintenti</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qAnalitikaKomintenti.h">
+      <Filter>Header Files\AnalitikaKomintenti</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qAnalitikaKomintentiwidget.h">
+      <Filter>Header Files\AnalitikaKomintenti</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qPriemwidget.ui">
+      <Filter>Form Files\Priem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qPriem.h">
+      <Filter>Header Files\Priem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qPriemwidget.h">
+      <Filter>Header Files\Priem</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qperiodicenizvestajwidget.ui">
+      <Filter>Form Files\PeriodicenIzvestaj</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qperiodicenizvestaj.ui">
+      <Filter>Form Files\PeriodicenIzvestaj</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qperiodicenizvestajwidget.h">
+      <Filter>Header Files\PeriodicenIzvestaj</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qperiodicenizvestaj.h">
+      <Filter>Header Files\PeriodicenIzvestaj</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qFinAnalitikaKomintenti.ui">
+      <Filter>Form Files\FinAnalitikaKomintenti</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qFinAnalitikaKomintentiwidget.ui">
+      <Filter>Form Files\FinAnalitikaKomintenti</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qFinAnalitikaKomintenti.h">
+      <Filter>Header Files\FinAnalitikaKomintenti</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qFinAnalitikaKomintentiwidget.h">
+      <Filter>Header Files\FinAnalitikaKomintenti</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyodobrenie.ui">
+      <Filter>Form Files\Odobrenie</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qodobreniekorekcija.ui">
+      <Filter>Form Files\Odobrenie</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qodobrenielista.ui">
+      <Filter>Form Files\Odobrenie</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qodobrenievnes.ui">
+      <Filter>Form Files\Odobrenie</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyodobrenie.h">
+      <Filter>Header Files\Odobrenie</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qodobreniekorekcija.h">
+      <Filter>Header Files\Odobrenie</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qodobrenielista.h">
+      <Filter>Header Files\Odobrenie</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qodobrenievnes.h">
+      <Filter>Header Files\Odobrenie</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qsearchform.ui">
+      <Filter>Form Files\Search</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qsearchform.h">
+      <Filter>Header Files\Search</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qsearchformfaktura.ui">
+      <Filter>Form Files\Search</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qsearchformfaktura.h">
+      <Filter>Header Files\Search</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quserform.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="quserform.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="xx.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyEmploye.ui">
+      <Filter>Form Files\Employe</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qEmployeivnes.ui">
+      <Filter>Form Files\Employe</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qEmployekorekcija.ui">
+      <Filter>Form Files\Employe</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qEmployelista.ui">
+      <Filter>Form Files\Employe</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qEmployekorekcija.h">
+      <Filter>Header Files\Employe</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qEmployelista.h">
+      <Filter>Header Files\Employe</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qEmployevnes.h">
+      <Filter>Header Files\Employe</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyEmploye.h">
+      <Filter>Header Files\Employe</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznismetkiivnes.ui">
+      <Filter>Form Files\Smetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznismetkikorekcija.ui">
+      <Filter>Form Files\Smetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznismetkilista.ui">
+      <Filter>Form Files\Smetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmysmetki.ui">
+      <Filter>Form Files\Smetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznismetkikorekcija.h">
+      <Filter>Header Files\Smetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznismetkilista.h">
+      <Filter>Header Files\Smetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznismetkivnes.h">
+      <Filter>Header Files\Smetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmysmetki.h">
+      <Filter>Header Files\Smetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkalkulacijakorekcija.h">
+      <Filter>Header Files\Kalkulacija</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkalkulacijalista.h">
+      <Filter>Header Files\Kalkulacija</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkalkulacijavnes.h">
+      <Filter>Header Files\Kalkulacija</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmykalkulacija.h">
+      <Filter>Header Files\Kalkulacija</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkalkulacijakorekcija.ui">
+      <Filter>Form Files\Kalkulacija</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkalkulacijalista.ui">
+      <Filter>Form Files\Kalkulacija</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkalkulacijavnes.ui">
+      <Filter>Form Files\Kalkulacija</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmykalkulacija.ui">
+      <Filter>Form Files\Kalkulacija</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkalkulacijalagerlista.ui">
+      <Filter>Form Files\Kalkulacija</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qkalkulacijalagerlista.h">
+      <Filter>Header Files\Kalkulacija</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qpromenaceni.ui">
+      <Filter>Form Files\PromeniCeni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qpromenaceniwidget.ui">
+      <Filter>Form Files\PromeniCeni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qpromenaceni.h">
+      <Filter>Header Files\PromeniCeni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qpromenaceniwidget.h">
+      <Filter>Header Files\PromeniCeni</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qfiscalform.ui">
+      <Filter>Form Files\Smetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qfiscalform.h">
+      <Filter>Header Files\Smetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizlezniispratnicikorekcija.h">
+      <Filter>Header Files\Ispratnici_Alone</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizlezniispratnicilista.h">
+      <Filter>Header Files\Ispratnici_Alone</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizlezniispratnicivnes.h">
+      <Filter>Header Files\Ispratnici_Alone</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyispratnici.h">
+      <Filter>Header Files\Ispratnici_Alone</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizlezniispratnicikorekcija.ui">
+      <Filter>Form Files\Ispratnici_alone</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizlezniispratnicilista.ui">
+      <Filter>Form Files\Ispratnici_alone</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizlezniispratnicivnes.ui">
+      <Filter>Form Files\Ispratnici_alone</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyfaktmaster.ui">
+      <Filter>Form Files\FaktMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznifaktmastervnes.ui">
+      <Filter>Form Files\FaktMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznifaktmasterlista.ui">
+      <Filter>Form Files\FaktMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznifaktmasterkorekcija.ui">
+      <Filter>Form Files\FaktMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznifaktmasterkorekcija.h">
+      <Filter>Header Files\FaktMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyfaktmaster.h">
+      <Filter>Header Files\FaktMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznifaktmastervnes.h">
+      <Filter>Header Files\FaktMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznifaktmasterlista.h">
+      <Filter>Header Files\FaktMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qprofakturimastervnes.ui">
+      <Filter>Form Files\ProFakturiMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qprofakturimasterlista.ui">
+      <Filter>Form Files\ProFakturiMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qprofakturimasterkorekcija.ui">
+      <Filter>Form Files\ProFakturiMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyprofakturimaster.ui">
+      <Filter>Form Files\ProFakturiMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyprofakturimaster.h">
+      <Filter>Header Files\ProFakturiMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qprofakturimastervnes.h">
+      <Filter>Header Files\ProFakturiMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qprofakturimasterlista.h">
+      <Filter>Header Files\ProFakturiMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qprofakturimasterkorekcija.h">
+      <Filter>Header Files\ProFakturiMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznipovratnicamasterkorekcija.ui">
+      <Filter>Form Files\PovratnicaMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznipovratnicamasterlista.ui">
+      <Filter>Form Files\PovratnicaMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznipovratnicamastervnes.ui">
+      <Filter>Form Files\PovratnicaMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmypovratnicamaster.ui">
+      <Filter>Form Files\PovratnicaMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznipovratnicamasterkorekcija.h">
+      <Filter>Header Files\PovratnicaMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznipovratnicamasterlista.h">
+      <Filter>Header Files\PovratnicaMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznipovratnicamastervnes.h">
+      <Filter>Header Files\PovratnicaMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmypovratnicamaster.h">
+      <Filter>Header Files\PovratnicaMaster</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznipopismasterkorekcija.ui">
+      <Filter>Form Files\Popis</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznipopismasterlista.ui">
+      <Filter>Form Files\Popis</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznipopismastervnes.ui">
+      <Filter>Form Files\Popis</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmypopismaster.ui">
+      <Filter>Form Files\Popis</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznipopismasterkorekcija.h">
+      <Filter>Header Files\Popis</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznipopismasterlista.h">
+      <Filter>Header Files\Popis</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qizleznipopismastervnes.h">
+      <Filter>Header Files\Popis</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmypopismaster.h">
+      <Filter>Header Files\Popis</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyporackismetki.ui">
+      <Filter>Form Files\PorackiSmetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qporackismetkiivnes.ui">
+      <Filter>Form Files\PorackiSmetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qporackismetkikorekcija.ui">
+      <Filter>Form Files\PorackiSmetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qporackismetkilista.ui">
+      <Filter>Form Files\PorackiSmetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qmyporackismetki.h">
+      <Filter>Header Files\PorackiSmetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qporackismetkikorekcija.h">
+      <Filter>Header Files\PorackiSmetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qporackismetkilista.h">
+      <Filter>Header Files\PorackiSmetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qporackismetkivnes.h">
+      <Filter>Header Files\PorackiSmetki</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qperioddialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="qperioddialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

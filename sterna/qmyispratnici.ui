@@ -1,0 +1,27 @@
+<ui version="4.0" >
+ <class>QMyIspratniciClass</class>
+ <widget class="QMyBaseWidget" native="1" name="QMyIspratniciClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>947</width>
+    <height>591</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>QMyIspratnici</string>
+  </property>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <customwidgets>
+  <customwidget>
+   <class>QMyBaseWidget</class>
+   <extends>QWidget</extends>
+   <header>qmybasewidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

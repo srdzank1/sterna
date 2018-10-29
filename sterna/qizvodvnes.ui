@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QIzvodVnesClass</class>
+ <widget class="QWidget" name="QIzvodVnesClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2417</width>
+    <height>2400</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>QIzvodVnes</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1011</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#0000ff;&quot;&gt;Извод - Внес&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Одбери Банка</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0" colspan="8">
+     <widget class="QTableView" name="tableView">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Коминтент</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="lineEdit_2"/>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLabel" name="label_9">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Прилив</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QLineEdit" name="lineEdit_3"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_10">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Број на Извод</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="lineEdit_8">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Датум</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QDateTimeEdit" name="dateTimeEdit">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="date">
+       <date>
+        <year>2000</year>
+        <month>3</month>
+        <day>1</day>
+       </date>
+      </property>
+      <property name="displayFormat">
+       <string>d/M/yyyy</string>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="7">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Внеси Извод</string>
+      </property>
+      <property name="icon">
+       <iconset resource="sterna.qrc">
+        <normaloff>:/sterna/Resources/key_f9.png</normaloff>:/sterna/Resources/key_f9.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="7">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="7">
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Бриши</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="5">
+     <widget class="QLineEdit" name="lineEdit_4"/>
+    </item>
+    <item row="4" column="4">
+     <widget class="QLabel" name="label_11">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Одлив</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="6">
+     <widget class="QPushButton" name="pushButton">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Излезни Факт.</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="7">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Влезни Факт.</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0" colspan="8">
+     <widget class="QTableView" name="tableView_2">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0" colspan="6">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Листа на влезно излезни документи за кои се однесува плакањето.</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="6">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Додај </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="3">
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="readOnly">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QLabel" name="label_12">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string> Извод- Референца</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="5">
+     <widget class="QLineEdit" name="lineEdit_5"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>tableView</tabstop>
+ </tabstops>
+ <resources>
+  <include location="sterna.qrc"/>
+ </resources>
+ <connections/>
+</ui>
